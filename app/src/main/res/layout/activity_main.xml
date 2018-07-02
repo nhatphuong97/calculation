@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <variable
+            name="ViewModel"
+            type="com.example.nhatphuong.calculation.MainActivity" />
+    </data>
+
+    <TableLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Main2Activity"
+        android:stretchColumns="*"
+        android:gravity="bottom">
+        <TableLayout android:layout_width="match_parent"
+            android:layout_height="112dp">
+            <TextView android:layout_height="match_parent"
+                android:background="#949292"
+                android:textSize="20dp"
+                android:id="@+id/txtcal"
+                android:paddingTop="40dp"
+                android:textColor="#ffffff"
+                android:gravity="right"
+                android:layout_width="match_parent"/>
+        </TableLayout>
+
+        <TableRow android:gravity="right">
+
+            <Button android:layout_width="match_parent"
+
+                android:backgroundTint="#fca924"
+                android:height="80dp"
+                android:text="x²"
+                android:id="@+id/button_binhphuong"
+                android:textSize="30dp"
+                android:layout_height="match_parent"/><Button android:layout_width="match_parent"
+
+                android:backgroundTint="#fca924"
+                android:height="80dp"
+                android:text="x³"
+                android:id="@+id/button_lapphuong"
+                android:textSize="30dp"
+                android:layout_height="match_parent"/><Button android:layout_width="match_parent"
+
+                android:backgroundTint="#fca924"
+                android:height="80dp"
+                android:text="√"
+                android:id="@+id/button_canbac2"
+                android:textSize="30dp"
+                android:layout_height="match_parent"/>
+            <Button android:layout_width="match_parent"
+
+                android:backgroundTint="#fca924"
+                android:height="80dp"
+                android:text="AC"
+                android:id="@+id/buttonC"
+                android:textSize="30dp"
+                android:layout_height="match_parent"/>
+        </TableRow>
+
+        <TableRow >
+            <Button android:layout_width="match_parent"
+                android:text="1"
+                android:textSize="30dp"
+                android:id="@+id/button1"
+                android:layout_height="80dp"/>
+            <Button android:layout_width="match_parent"
+                android:text="2"
+                android:id="@+id/button2"
+                android:textSize="30dp"
+                android:layout_height="match_parent"/>
+            <Button android:layout_width="match_parent"
+                android:text="3"
+                android:id="@+id/button3"
+                android:textSize="30dp"
+                android:layout_height="match_parent"/>
+            <Button android:layout_width="match_parent"
+                android:backgroundTint="#fca924"
+                android:text="+"
+                android:id="@+id/button_cong"
+                android:textSize="30dp"
+                android:layout_height="match_parent"/>
+        </TableRow>
+        <TableRow >
+            <Button android:layout_width="match_parent"
+                android:text="4"
+                android:textSize="30dp"
+                android:id="@+id/button4"
+                android:layout_height="80dp"/>
+            <Button android:layout_width="match_parent"
+                android:text="5"
+                android:textSize="30dp"
+                android:id="@+id/button5"
+                android:layout_height="match_parent"/>
+            <Button android:layout_width="match_parent"
+                android:text="6"
+                android:textSize="30dp"
+                android:id="@+id/button6"
+                android:layout_height="match_parent"/>
+            <Button android:layout_width="match_parent"
+                android:backgroundTint="#fca924"
+                android:text="-"
+                android:id="@+id/button_tru"
+                android:textSize="30dp"
+                android:layout_height="match_parent"/>
+        </TableRow>
+        <TableRow >
+            <Button android:layout_width="match_parent"
+                android:text="7"
+                android:textSize="30dp"
+                android:id="@+id/button7"
+                android:layout_height="80dp"/>
+            <Button android:layout_width="match_parent"
+                android:text="8"
+                android:textSize="30dp"
+                android:id="@+id/button8"
+                android:layout_height="match_parent"/>
+            <Button android:layout_width="match_parent"
+                android:text="9"
+                android:textSize="30dp"
+                android:id="@+id/button9"
+                android:layout_height="match_parent"/>
+            <Button android:layout_width="match_parent"
+                android:backgroundTint="#fca924"
+                android:text="X"
+                android:id="@+id/button_nhan"
+                android:textSize="30dp"
+                android:layout_height="match_parent"/>
+        </TableRow>
+        <TableRow >
+            <Button android:layout_width="match_parent"
+                android:text="."
+                android:textSize="30dp"
+                android:id="@+id/button_cham"
+                android:layout_height="80dp"/>
+            <Button android:layout_width="match_parent"
+                android:text="0"
+                android:textSize="30dp"
+                android:id="@+id/button0"
+                android:layout_height="match_parent"/>
+            <Button android:layout_width="match_parent"
+                android:text="="
+                android:id="@+id/button_bang"
+                android:textSize="30dp"
+                android:layout_height="match_parent"/>
+            <Button android:layout_width="match_parent"
+                android:backgroundTint="#fca924"
+                android:text="÷"
+                android:textSize="30dp"
+                android:id="@+id/button_chia"
+                android:layout_height="match_parent"/>
+        </TableRow>
+
+
+
+    </TableLayout>
+</layout>
